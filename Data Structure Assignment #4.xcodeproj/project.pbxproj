@@ -7,24 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C418D5931EA5367900F8DCE9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C418D5921EA5367900F8DCE9 /* main.cpp */; };
+		C418D5931EA5367900F8DCE9 /* wordfreq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C418D5921EA5367900F8DCE9 /* wordfreq.cpp */; };
+		C418D5A01EA538FC00F8DCE9 /* wordscollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C418D5991EA536D000F8DCE9 /* wordscollection.cpp */; };
+		C418D5A41EA53A9B00F8DCE9 /* irving.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C418D59E1EA537E800F8DCE9 /* irving.txt */; };
+		C418D5A61EA53B7000F8DCE9 /* ds.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C418D5A51EA53B6400F8DCE9 /* ds.txt */; };
+		C418D5AB1EA53C5C00F8DCE9 /* munro.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C418D5A71EA53C2D00F8DCE9 /* munro.txt */; };
+		C418D5AC1EA53C6000F8DCE9 /* woolf.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C418D5A81EA53C3800F8DCE9 /* woolf.txt */; };
+		C418D5AD1EA53C6300F8DCE9 /* marquez.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C418D5A91EA53C3C00F8DCE9 /* marquez.txt */; };
+		C418D5AE1EA53C6600F8DCE9 /* melville.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C418D5AA1EA53C4200F8DCE9 /* melville.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C418D58D1EA5367900F8DCE9 /* CopyFiles */ = {
+		C418D5A31EA53A9300F8DCE9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				C418D5AE1EA53C6600F8DCE9 /* melville.txt in CopyFiles */,
+				C418D5AD1EA53C6300F8DCE9 /* marquez.txt in CopyFiles */,
+				C418D5AC1EA53C6000F8DCE9 /* woolf.txt in CopyFiles */,
+				C418D5AB1EA53C5C00F8DCE9 /* munro.txt in CopyFiles */,
+				C418D5A61EA53B7000F8DCE9 /* ds.txt in CopyFiles */,
+				C418D5A41EA53A9B00F8DCE9 /* irving.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C418D58F1EA5367900F8DCE9 /* Data Structure Assignment #4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Structure Assignment #4"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C418D5921EA5367900F8DCE9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C418D5921EA5367900F8DCE9 /* wordfreq.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wordfreq.cpp; sourceTree = "<group>"; };
+		C418D5991EA536D000F8DCE9 /* wordscollection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wordscollection.cpp; sourceTree = "<group>"; };
+		C418D59A1EA536D000F8DCE9 /* wordscollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordscollection.h; sourceTree = "<group>"; };
+		C418D59C1EA536F600F8DCE9 /* frequency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = frequency.h; sourceTree = "<group>"; };
+		C418D59D1EA5370100F8DCE9 /* bintree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bintree.h; sourceTree = "<group>"; };
+		C418D59E1EA537E800F8DCE9 /* irving.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = irving.txt; path = "Data Structure Assignment #4/irving.txt"; sourceTree = "<group>"; };
+		C418D5A51EA53B6400F8DCE9 /* ds.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = ds.txt; path = "Data Structure Assignment #4/ds.txt"; sourceTree = "<group>"; };
+		C418D5A71EA53C2D00F8DCE9 /* munro.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = munro.txt; path = "Data Structure Assignment #4/munro.txt"; sourceTree = "<group>"; };
+		C418D5A81EA53C3800F8DCE9 /* woolf.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = woolf.txt; path = "Data Structure Assignment #4/woolf.txt"; sourceTree = "<group>"; };
+		C418D5A91EA53C3C00F8DCE9 /* marquez.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = marquez.txt; path = "Data Structure Assignment #4/marquez.txt"; sourceTree = "<group>"; };
+		C418D5AA1EA53C4200F8DCE9 /* melville.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = melville.txt; path = "Data Structure Assignment #4/melville.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +66,12 @@
 			children = (
 				C418D5911EA5367900F8DCE9 /* Data Structure Assignment #4 */,
 				C418D5901EA5367900F8DCE9 /* Products */,
+				C418D5A51EA53B6400F8DCE9 /* ds.txt */,
+				C418D59E1EA537E800F8DCE9 /* irving.txt */,
+				C418D5A71EA53C2D00F8DCE9 /* munro.txt */,
+				C418D5A81EA53C3800F8DCE9 /* woolf.txt */,
+				C418D5A91EA53C3C00F8DCE9 /* marquez.txt */,
+				C418D5AA1EA53C4200F8DCE9 /* melville.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +86,11 @@
 		C418D5911EA5367900F8DCE9 /* Data Structure Assignment #4 */ = {
 			isa = PBXGroup;
 			children = (
-				C418D5921EA5367900F8DCE9 /* main.cpp */,
+				C418D5921EA5367900F8DCE9 /* wordfreq.cpp */,
+				C418D5991EA536D000F8DCE9 /* wordscollection.cpp */,
+				C418D59A1EA536D000F8DCE9 /* wordscollection.h */,
+				C418D59C1EA536F600F8DCE9 /* frequency.h */,
+				C418D59D1EA5370100F8DCE9 /* bintree.h */,
 			);
 			path = "Data Structure Assignment #4";
 			sourceTree = "<group>";
@@ -71,7 +104,7 @@
 			buildPhases = (
 				C418D58B1EA5367900F8DCE9 /* Sources */,
 				C418D58C1EA5367900F8DCE9 /* Frameworks */,
-				C418D58D1EA5367900F8DCE9 /* CopyFiles */,
+				C418D5A31EA53A9300F8DCE9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -119,7 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C418D5931EA5367900F8DCE9 /* main.cpp in Sources */,
+				C418D5A01EA538FC00F8DCE9 /* wordscollection.cpp in Sources */,
+				C418D5931EA5367900F8DCE9 /* wordfreq.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +280,7 @@
 				C418D5981EA5367900F8DCE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
